@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SupplierLiveModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblSupplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ContactName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ContactEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ContactPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Address2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Zip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WebAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="OrdersEmail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="vdn" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="EmailCCInfo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="AllowAnonymous" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="BuyerRegistration" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BuyerRegistrationEmail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="BCCSuperAdmin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="decimal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UPSTools" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="AdminLocale" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TimeOffSet" Type="Int32" />
+    <Property Name="Workflow" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Invoicing" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="QtyPricingTable" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DraftCart" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Notes" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="Attributes" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="InventoryUpload" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="MarketingLists" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CustomPages" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ApplicationType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsNotifyOrderError" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="SupplierLiveEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblSuppliers" EntityType="Self.tblSupplier" />
+  </EntityContainer>
+</Schema>

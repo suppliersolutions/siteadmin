@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SupplierLiveModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblSupplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactEmail" Type="varchar" MaxLength="50" />
+    <Property Name="ContactPassword" Type="varchar" MaxLength="50" />
+    <Property Name="Address1" Type="varchar" MaxLength="100" />
+    <Property Name="Address2" Type="varchar" MaxLength="100" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="State" Type="varchar" MaxLength="50" />
+    <Property Name="Zip" Type="varchar" MaxLength="50" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" />
+    <Property Name="Fax" Type="varchar" MaxLength="50" />
+    <Property Name="WebAddress" Type="varchar" MaxLength="255" />
+    <Property Name="OrdersEmail" Type="varchar" MaxLength="255" />
+    <Property Name="vdn" Type="varchar" MaxLength="100" />
+    <Property Name="EmailCCInfo" Type="varchar" MaxLength="2" />
+    <Property Name="AllowAnonymous" Type="varchar" MaxLength="2" />
+    <Property Name="BuyerRegistration" Type="varchar" MaxLength="50" />
+    <Property Name="BuyerRegistrationEmail" Type="varchar" MaxLength="100" />
+    <Property Name="BCCSuperAdmin" Type="varchar" MaxLength="50" />
+    <Property Name="decimal" Type="varchar" MaxLength="50" />
+    <Property Name="UPSTools" Type="varchar" MaxLength="2" />
+    <Property Name="AdminLocale" Type="varchar" MaxLength="50" />
+    <Property Name="TimeOffSet" Type="int" />
+    <Property Name="Workflow" Type="varchar" MaxLength="2" />
+    <Property Name="Invoicing" Type="varchar" MaxLength="2" />
+    <Property Name="QtyPricingTable" Type="varchar" MaxLength="50" />
+    <Property Name="DraftCart" Type="varchar" MaxLength="2" />
+    <Property Name="Notes" Type="varchar" MaxLength="2000" />
+    <Property Name="Attributes" Type="varchar" MaxLength="2" />
+    <Property Name="InventoryUpload" Type="varchar" MaxLength="2" />
+    <Property Name="MarketingLists" Type="varchar" MaxLength="2" />
+    <Property Name="CustomPages" Type="varchar" MaxLength="2" />
+    <Property Name="ApplicationType" Type="varchar" MaxLength="50" />
+    <Property Name="IsNotifyOrderError" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="SupplierLiveModelStoreContainer">
+    <EntitySet Name="tblSupplier" EntityType="Self.tblSupplier" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

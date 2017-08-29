@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SupplierLiveModelStoreContainer" CdmEntityContainer="SupplierLiveEntities2">
+    <EntitySetMapping Name="tblSuppliers">
+      <EntityTypeMapping TypeName="SupplierLiveModel.tblSupplier">
+        <MappingFragment StoreEntitySet="tblSupplier">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactPassword" ColumnName="ContactPassword" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="WebAddress" ColumnName="WebAddress" />
+          <ScalarProperty Name="OrdersEmail" ColumnName="OrdersEmail" />
+          <ScalarProperty Name="vdn" ColumnName="vdn" />
+          <ScalarProperty Name="EmailCCInfo" ColumnName="EmailCCInfo" />
+          <ScalarProperty Name="AllowAnonymous" ColumnName="AllowAnonymous" />
+          <ScalarProperty Name="BuyerRegistration" ColumnName="BuyerRegistration" />
+          <ScalarProperty Name="BuyerRegistrationEmail" ColumnName="BuyerRegistrationEmail" />
+          <ScalarProperty Name="BCCSuperAdmin" ColumnName="BCCSuperAdmin" />
+          <ScalarProperty Name="decimal" ColumnName="decimal" />
+          <ScalarProperty Name="UPSTools" ColumnName="UPSTools" />
+          <ScalarProperty Name="AdminLocale" ColumnName="AdminLocale" />
+          <ScalarProperty Name="TimeOffSet" ColumnName="TimeOffSet" />
+          <ScalarProperty Name="Workflow" ColumnName="Workflow" />
+          <ScalarProperty Name="Invoicing" ColumnName="Invoicing" />
+          <ScalarProperty Name="QtyPricingTable" ColumnName="QtyPricingTable" />
+          <ScalarProperty Name="DraftCart" ColumnName="DraftCart" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Attributes" ColumnName="Attributes" />
+          <ScalarProperty Name="InventoryUpload" ColumnName="InventoryUpload" />
+          <ScalarProperty Name="MarketingLists" ColumnName="MarketingLists" />
+          <ScalarProperty Name="CustomPages" ColumnName="CustomPages" />
+          <ScalarProperty Name="ApplicationType" ColumnName="ApplicationType" />
+          <ScalarProperty Name="IsNotifyOrderError" ColumnName="IsNotifyOrderError" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

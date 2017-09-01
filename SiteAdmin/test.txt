@@ -1,0 +1,14 @@
+ Volume in drive D is DATA
+ Volume Serial Number is 8817-1B12
+
+ Directory of d:\Webs\SSMVC\SiteAdmin
+
+09/01/2017  10:22 AM    <DIR>          .
+09/01/2017  10:22 AM    <DIR>          ..
+08/24/2017  01:12 PM    <DIR>          lib
+07/31/2017  12:21 PM    <DIR>          packages
+08/24/2017  01:12 PM    <DIR>          SiteAdmin
+07/31/2017  11:41 AM               995 SiteAdmin.sln
+09/01/2017  10:22 AM                 0 test.txt
+               2 File(s)            995 bytes
+               5 Dir(s)  860,665,253,888 bytes free
